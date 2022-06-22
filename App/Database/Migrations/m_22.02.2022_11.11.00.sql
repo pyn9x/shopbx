@@ -1,0 +1,25 @@
+insert into up_tag
+(NAME, DATE_CREATE, DATE_UPDATE)
+values
+	('Европа', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Азия', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Северная Америка', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Южная Америка', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Африка', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Австралия', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Семейная', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into up_type_tag
+(NAME, DATE_CREATE, DATE_UPDATE)
+values
+	('Континент', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP),
+	('Семейность', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+insert into up_tag_type_tag
+(TAG_ID, TYPE_ID)
+values
+	(14, 2),
+	(15, 2),
+	(16, 2),
+	(17, 2),
+	(18, 2),
+	(19, 2),
+	(20, 3);
